@@ -1,0 +1,113 @@
+body{
+    background-color: antiquewhite;
+    background-image: url(contact.jpg);
+}
+
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(20, 33, 61, 0.0);
+    position: relative;
+    
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+
+
+.headText {
+    margin-left: 3rem;
+   
+    color: rgb(245, 239, 239);
+    position: absolute;
+    left: 20px;
+    transform: translate(10px, -50%);
+    transition: 1000ms linear;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    list-style: none;
+    height: 100%;
+    width: 25%;
+    margin-left: auto;
+    cursor: pointer;
+    
+}
+
+.navlinks li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.navlinks li:hover {
+   text-decoration-line: underline ;
+}
+
+.links {
+    text-decoration: none ;
+    color: white;
+    font-size: 1rem;
+}
+
+.links:hover {
+
+    color: rgb(252, 1, 1);
+    font-size: 2rem;
+    
+}
+
+#contact{
+    position: relative;
+    margin-left: 40rem;
+   
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+   
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+#contact-box form{
+    width: 80%;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    margin-top: 10rem;
+}
+
+.submit{
+    
+    cursor: pointer;
+}
